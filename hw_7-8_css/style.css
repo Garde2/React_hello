@@ -1,0 +1,173 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  align-items: center;
+}
+
+.top {
+  padding-bottom: 163px;
+  padding-top: 41px;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo__img {
+  width: 35px;
+  height: 40px;
+}
+
+.header__logo__text {
+  padding: 5px;
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav {
+  display: flex;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: right;
+
+  margin: 0 auto;
+  width: 533px;
+}
+
+.header__link1 {
+  color: #f25822;
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px 16px;
+  margin-bottom: 41px;
+}
+
+.header__link {
+  color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 41px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.content__right {
+  justify-content: right;
+}
+
+.content__img {
+  width: 545px;
+  height: 375px;
+}
+
+.content__left {
+  justify-content: left;
+  margin-right: 41px;
+  margin-bottom: 17px;
+  width: 522px;
+}
+
+.title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+
+.dsc {
+  color: #888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 37px;
+}
+
+.content__link {
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  background: #000;
+}
+
+.content__button {
+  justify-content: center;
+}
+
+.but {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  justify-content: center;
+  align-self: center;
+}
+
+.content__link {
+  justify-content: center;
+}
+
+.content__button__dsc {
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__img {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
