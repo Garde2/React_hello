@@ -11,12 +11,6 @@ body {
 
 .top {
   padding-top: 41px;
-  justify-content: center;
-}
-
-.header {
-  display: flex;
-  align-items: center;
 }
 
 .header__logo {
@@ -92,21 +86,21 @@ body {
   justify-content: center;
 }
 
-.content__right {
-  justify-content: right;
-  align-items: center;
-  display: flex;
-}
-
 .content__img {
   width: 545px;
   height: 375px;
   margin-bottom: 163px;
 }
 
-.content__left {
+.content__left,
+.content__right {
   margin-right: 41px;
   width: 522px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 .title {
